@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/744467546453000462/64a1a19c8e2b4da8acb5b7f585c20982/artifacts
+deleted_time: 1702299318433
+end_time: 1702298704586
+entry_point_name: ''
+experiment_id: '744467546453000462'
+lifecycle_stage: deleted
+run_id: 64a1a19c8e2b4da8acb5b7f585c20982
+run_name: grandiose-crow-901
+run_uuid: 64a1a19c8e2b4da8acb5b7f585c20982
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702298694235
+status: 4
+tags: []
+user_id: zalina

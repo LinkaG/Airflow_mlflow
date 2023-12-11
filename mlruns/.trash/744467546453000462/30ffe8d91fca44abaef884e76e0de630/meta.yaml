@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/744467546453000462/30ffe8d91fca44abaef884e76e0de630/artifacts
+deleted_time: 1702299318433
+end_time: 1702298790940
+entry_point_name: ''
+experiment_id: '744467546453000462'
+lifecycle_stage: deleted
+run_id: 30ffe8d91fca44abaef884e76e0de630
+run_name: delightful-squid-424
+run_uuid: 30ffe8d91fca44abaef884e76e0de630
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702298782594
+status: 4
+tags: []
+user_id: zalina

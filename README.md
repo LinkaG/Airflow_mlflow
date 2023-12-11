@@ -3,17 +3,20 @@
 
 В этом репозитории показан пример Apache Airflow pipeline для локальной разработки проектов.
 
+В качестве примера реализованы 2 пайплана:
+1. [youtube_comments_score.py](airflow%2Fdags%2Fyoutube_comments_score.py) - получение информации о рейтинге канала по количеству лайков
+2. [youtube_comments_score.py](airflow%2Fdags%2Fyoutube_comments_score.py) - классический пример классификации на датасете iris (+ click, + hydra)
 
 ## Usage
-Для того, чтобы воспроизвести папйплайн, выполните следующие шаги:
+Для того, чтобы воспроизвести папйплайн, выполняются следующие шаги:
 
-1. Создайте виртуальное окружение
+1. Создание виртуальное окружение
 
    ```
    python3 -m venv env
    ```
 
-2. Установите и настройте airflow
+2. Установка и настройка airflow
 
    ```
    pip3 install "apache-airflow[celery]==2.7.3" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.7.3/constraints-3.8.txt"
@@ -28,7 +31,7 @@
    mlflow ui
    ```
 
-4. Запустите Airflow webserver и sheduler :
+4. Запуск Airflow webserver и sheduler :
 
     ```
     airflow webserver -p 8080
@@ -40,13 +43,13 @@
 
 5. Доступ к Airflow web interface в браузере по адресу: http://localhost:8080.
 
-6. В папку airflow/dags помещаем скрипт [youtube_comments_score.py](airflow%2Fdags%2Fyoutube_comments_score.py), чтобы инициализировать выполнение пайплайна.
+6. Делаем триггер пайплайна, который описан в скрипте [sklearn_pipeline2.py](airflow%2Fdags%2Fsklearn_pipeline2.py).
 
 7. Результаты запуска пайплайна:
 
-   ![image](images/airflow.png)
+   ![image](images/airflow2.png)
 
-8. Отслеживание экспериментов в mlflow
-   ![image](images/mlflow.png)
+8. Отслеживание экспериментов в mlflow (залогированы датасет, модель, метрики)
+   ![image](images/mlflow2.png)
 
 

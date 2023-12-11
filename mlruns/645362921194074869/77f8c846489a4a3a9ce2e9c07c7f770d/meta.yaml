@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/645362921194074869/77f8c846489a4a3a9ce2e9c07c7f770d/artifacts
+deleted_time: 1702312274083
+end_time: 1702311660029
+entry_point_name: ''
+experiment_id: '645362921194074869'
+lifecycle_stage: deleted
+run_id: 77f8c846489a4a3a9ce2e9c07c7f770d
+run_name: train_logreg
+run_uuid: 77f8c846489a4a3a9ce2e9c07c7f770d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702311655469
+status: 3
+tags: []
+user_id: zalina

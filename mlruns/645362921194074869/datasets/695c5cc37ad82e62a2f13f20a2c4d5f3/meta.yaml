@@ -1,0 +1,9 @@
+digest: 36b43e73
+name: dataset
+profile: '{"num_rows": 100, "num_elements": 400}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "sepal length (cm)"}, {"type":
+  "double", "name": "sepal width (cm)"}, {"type": "double", "name": "petal length
+  (cm)"}, {"type": "double", "name": "petal width (cm)"}]}'
+source: '{"tags": {"mlflow.user": "zalina", "mlflow.source.name": "/home/zalina/xflow/scripts2/train.py",
+  "mlflow.source.type": "LOCAL", "mlflow.source.git.commit": "39e8b1ee0e6fa388f8f1e9cdb4682fa48185bd43"}}'
+source_type: code

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/645362921194074869/c031f3aef0c3429998b1884f1e0f9f24/artifacts
+end_time: 1702312185692
+entry_point_name: ''
+experiment_id: '645362921194074869'
+lifecycle_stage: active
+run_id: c031f3aef0c3429998b1884f1e0f9f24
+run_name: train_logreg
+run_uuid: c031f3aef0c3429998b1884f1e0f9f24
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702312181468
+status: 3
+tags: []
+user_id: zalina

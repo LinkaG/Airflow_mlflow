@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/645362921194074869
+creation_time: 1702311550491
+experiment_id: '645362921194074869'
+last_update_time: 1702311550491
+lifecycle_stage: active
+name: logreg classifier
